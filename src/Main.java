@@ -5,9 +5,11 @@ public class Main {
         Controler controler = new Controler();
         controler.createStudent("1", "1","1","1");
         controler.createStudent("2", "2","2","2");
-        controler.getAllStudent();
         controler.createStudent("3", "3","3","3");
         controler.createStudent("4", "4","4","4");
+        controler.createTeacher("Fdfsdf", "effw","flelf","1544");
+        controler.createTeacher("Fdfsdf", "effw","flelf","1544");
         controler.getAllStudent();
+//        controler.createStudentGroup();
     }
 }
